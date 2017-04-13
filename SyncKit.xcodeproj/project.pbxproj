@@ -14,6 +14,18 @@
 		0ADDDC151E9EF93800FBD6F4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0ADDDC141E9EF93800FBD6F4 /* Assets.xcassets */; };
 		0ADDDC181E9EF93800FBD6F4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0ADDDC161E9EF93800FBD6F4 /* LaunchScreen.storyboard */; };
 		0ADDDC231E9EF93800FBD6F4 /* SyncKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ADDDC221E9EF93800FBD6F4 /* SyncKitTests.swift */; };
+		0ADDDC2F1E9EFA7100FBD6F4 /* HttpMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ADDDC2E1E9EFA7100FBD6F4 /* HttpMethod.swift */; };
+		0ADDDC321E9EFA9B00FBD6F4 /* URLRequest+SyncKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ADDDC311E9EFA9B00FBD6F4 /* URLRequest+SyncKit.swift */; };
+		0ADDDC341E9EFAC800FBD6F4 /* AuthRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ADDDC331E9EFAC700FBD6F4 /* AuthRequest.swift */; };
+		0ADDDC361E9EFAE300FBD6F4 /* RequestHeaders.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ADDDC351E9EFAE300FBD6F4 /* RequestHeaders.swift */; };
+		0ADDDC381E9EFAFB00FBD6F4 /* Resource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ADDDC371E9EFAFB00FBD6F4 /* Resource.swift */; };
+		0ADDDC3A1E9EFB2300FBD6F4 /* WebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ADDDC391E9EFB2300FBD6F4 /* WebService.swift */; };
+		0ADDDC3D1E9EFB4700FBD6F4 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ADDDC3C1E9EFB4700FBD6F4 /* Constants.swift */; };
+		0ADDDC3F1E9EFB5700FBD6F4 /* Date+SyncKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ADDDC3E1E9EFB5700FBD6F4 /* Date+SyncKit.swift */; };
+		0ADDDC411E9EFBB300FBD6F4 /* Error+SyncKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ADDDC401E9EFBB300FBD6F4 /* Error+SyncKit.swift */; };
+		0ADDDC431E9EFBCB00FBD6F4 /* URLResponse+SyncKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ADDDC421E9EFBCB00FBD6F4 /* URLResponse+SyncKit.swift */; };
+		0ADDDC451E9EFBDD00FBD6F4 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ADDDC441E9EFBDD00FBD6F4 /* Result.swift */; };
+		0ADDDC471E9EFBFD00FBD6F4 /* BaseRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ADDDC461E9EFBFD00FBD6F4 /* BaseRequest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +50,18 @@
 		0ADDDC1E1E9EF93800FBD6F4 /* SyncKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SyncKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0ADDDC221E9EF93800FBD6F4 /* SyncKitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SyncKitTests.swift; sourceTree = "<group>"; };
 		0ADDDC241E9EF93800FBD6F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0ADDDC2E1E9EFA7100FBD6F4 /* HttpMethod.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HttpMethod.swift; sourceTree = "<group>"; };
+		0ADDDC311E9EFA9B00FBD6F4 /* URLRequest+SyncKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "URLRequest+SyncKit.swift"; sourceTree = "<group>"; };
+		0ADDDC331E9EFAC700FBD6F4 /* AuthRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthRequest.swift; sourceTree = "<group>"; };
+		0ADDDC351E9EFAE300FBD6F4 /* RequestHeaders.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestHeaders.swift; sourceTree = "<group>"; };
+		0ADDDC371E9EFAFB00FBD6F4 /* Resource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Resource.swift; sourceTree = "<group>"; };
+		0ADDDC391E9EFB2300FBD6F4 /* WebService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebService.swift; sourceTree = "<group>"; };
+		0ADDDC3C1E9EFB4700FBD6F4 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		0ADDDC3E1E9EFB5700FBD6F4 /* Date+SyncKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Date+SyncKit.swift"; sourceTree = "<group>"; };
+		0ADDDC401E9EFBB300FBD6F4 /* Error+SyncKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Error+SyncKit.swift"; sourceTree = "<group>"; };
+		0ADDDC421E9EFBCB00FBD6F4 /* URLResponse+SyncKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "URLResponse+SyncKit.swift"; sourceTree = "<group>"; };
+		0ADDDC441E9EFBDD00FBD6F4 /* Result.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
+		0ADDDC461E9EFBFD00FBD6F4 /* BaseRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseRequest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +103,9 @@
 		0ADDDC091E9EF93800FBD6F4 /* SyncKit */ = {
 			isa = PBXGroup;
 			children = (
+				0ADDDC3B1E9EFB3D00FBD6F4 /* Constant */,
+				0ADDDC301E9EFA7E00FBD6F4 /* Additions */,
+				0ADDDC2D1E9EFA4E00FBD6F4 /* Sync */,
 				0ADDDC0A1E9EF93800FBD6F4 /* AppDelegate.swift */,
 				0ADDDC0C1E9EF93800FBD6F4 /* ViewController.swift */,
 				0ADDDC0E1E9EF93800FBD6F4 /* Main.storyboard */,
@@ -97,6 +124,39 @@
 				0ADDDC241E9EF93800FBD6F4 /* Info.plist */,
 			);
 			path = SyncKitTests;
+			sourceTree = "<group>";
+		};
+		0ADDDC2D1E9EFA4E00FBD6F4 /* Sync */ = {
+			isa = PBXGroup;
+			children = (
+				0ADDDC2E1E9EFA7100FBD6F4 /* HttpMethod.swift */,
+				0ADDDC331E9EFAC700FBD6F4 /* AuthRequest.swift */,
+				0ADDDC351E9EFAE300FBD6F4 /* RequestHeaders.swift */,
+				0ADDDC371E9EFAFB00FBD6F4 /* Resource.swift */,
+				0ADDDC391E9EFB2300FBD6F4 /* WebService.swift */,
+				0ADDDC441E9EFBDD00FBD6F4 /* Result.swift */,
+				0ADDDC461E9EFBFD00FBD6F4 /* BaseRequest.swift */,
+			);
+			name = Sync;
+			sourceTree = "<group>";
+		};
+		0ADDDC301E9EFA7E00FBD6F4 /* Additions */ = {
+			isa = PBXGroup;
+			children = (
+				0ADDDC311E9EFA9B00FBD6F4 /* URLRequest+SyncKit.swift */,
+				0ADDDC3E1E9EFB5700FBD6F4 /* Date+SyncKit.swift */,
+				0ADDDC401E9EFBB300FBD6F4 /* Error+SyncKit.swift */,
+				0ADDDC421E9EFBCB00FBD6F4 /* URLResponse+SyncKit.swift */,
+			);
+			name = Additions;
+			sourceTree = "<group>";
+		};
+		0ADDDC3B1E9EFB3D00FBD6F4 /* Constant */ = {
+			isa = PBXGroup;
+			children = (
+				0ADDDC3C1E9EFB4700FBD6F4 /* Constants.swift */,
+			);
+			name = Constant;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -202,8 +262,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0ADDDC411E9EFBB300FBD6F4 /* Error+SyncKit.swift in Sources */,
+				0ADDDC431E9EFBCB00FBD6F4 /* URLResponse+SyncKit.swift in Sources */,
+				0ADDDC3A1E9EFB2300FBD6F4 /* WebService.swift in Sources */,
+				0ADDDC3F1E9EFB5700FBD6F4 /* Date+SyncKit.swift in Sources */,
+				0ADDDC451E9EFBDD00FBD6F4 /* Result.swift in Sources */,
+				0ADDDC471E9EFBFD00FBD6F4 /* BaseRequest.swift in Sources */,
+				0ADDDC2F1E9EFA7100FBD6F4 /* HttpMethod.swift in Sources */,
+				0ADDDC381E9EFAFB00FBD6F4 /* Resource.swift in Sources */,
 				0ADDDC131E9EF93800FBD6F4 /* SyncKit.xcdatamodeld in Sources */,
 				0ADDDC0D1E9EF93800FBD6F4 /* ViewController.swift in Sources */,
+				0ADDDC3D1E9EFB4700FBD6F4 /* Constants.swift in Sources */,
+				0ADDDC341E9EFAC800FBD6F4 /* AuthRequest.swift in Sources */,
+				0ADDDC361E9EFAE300FBD6F4 /* RequestHeaders.swift in Sources */,
+				0ADDDC321E9EFA9B00FBD6F4 /* URLRequest+SyncKit.swift in Sources */,
 				0ADDDC0B1E9EF93800FBD6F4 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -410,6 +482,7 @@
 				0ADDDC291E9EF93800FBD6F4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0ADDDC2A1E9EF93800FBD6F4 /* Build configuration list for PBXNativeTarget "SyncKitTests" */ = {
 			isa = XCConfigurationList;
@@ -418,6 +491,7 @@
 				0ADDDC2C1E9EF93800FBD6F4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
